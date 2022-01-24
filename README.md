@@ -71,7 +71,15 @@ These fields are currently required for display with no code changes. Feel free 
 #### Header
 
 - image, background color, meet vonta
+- image: getByAltText
+- meet vonta: getByRole('paragraph')
 
 #### Card
 
-- banner, profile picture, name, motto, color, interests
+- banner, profile picture, name, motto, color, interests, individual interests
+- banner: getByAltText
+- name: getByRole('heading')
+- motto: getByRole('paragraph')
+- color: getByRole('paragraph')
+- interests: getByRole('heading')
+- individual interests: getByRole('listitem)
